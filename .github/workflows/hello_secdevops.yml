@@ -1,0 +1,13 @@
+name: Leo Hello SecDevOps
+on: 
+  push:
+    branches: [ "test" ]
+  workflow_dispatch:
+
+jobs:
+  run-shell-command:
+    runs-on: SS_PROD_DEV
+    name: Run a shell command and print some text
+    steps:  
+      - name: Echo a string
+        run: echo "Hello SecDevOps team"
