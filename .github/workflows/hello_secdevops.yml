@@ -10,4 +10,4 @@ jobs:
     name: Run a shell command and print some text
     steps:  
       - name: Echo a string
-        run: echo "Hello SecDevOps team"
+        run: echo "Hello SecDevOps team test"
